@@ -6,6 +6,10 @@ theme = "minimal"
 googleAnalytics = ""
 enableEmoji=true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
     author = "Elena Miu"
     description = "Postdoctoral Research Associate at Aarhus University"

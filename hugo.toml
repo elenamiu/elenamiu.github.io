@@ -3,6 +3,3 @@ languageCode = 'en-us'
 title = 'Elena Miu'
 theme = 'minimal'
 
-[caches]
-	[caches.images]
-		dir = 'cacheDir/images'
