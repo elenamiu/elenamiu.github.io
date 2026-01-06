@@ -1,0 +1,4 @@
+{{ range .Params.tags }}
+<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}"><kbd class="item-tag">{{ . }}</kbd></a>
+<meta name="google-site-verification" content="8anyi39ex8RF5MNAs71Iwc32R-kb5UMh4meRXr3VoQQ" />
+{{ end }}
